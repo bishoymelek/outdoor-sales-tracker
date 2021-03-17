@@ -1,0 +1,236 @@
+@font-face {
+  font-family: Lateef;
+  src: url(../assets/fonts/LateefRegOT.ttf);
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.with-aligned-label {
+  label {
+    display: inline-block;
+  }
+}
+
+.login-container {
+  #logo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+/**
+* Spinner widget
+*/
+.spinner-container {
+  #cover-spin {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+  }
+
+  #spinner {
+    z-index: 9991;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  @-webkit-keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.react-bootstrap-table {
+  overflow-x: scroll;
+}
+
+// .dropdown {
+//   // .dropdown-menu {
+//   //     transition: all 0.5s;
+//   //     overflow: hidden;
+//   //     transform-origin: top center;
+//   //     transform: scale(1,0);
+//   //     display: block;
+//   // }
+//   // &:hover {
+//   //     .dropdown-menu {
+//   //         transform: scale(1);
+//   //     }
+//   // }
+//   // .dropdown-toggle {
+//   //     &::after {
+//   //         transform: rotate(90deg);
+//   //     }
+//   //     &:hover {
+//   //         &::after{
+//   //             transform: rotate(0deg);
+//   //         }
+//   //     }
+//   // }
+// }
+
+// .dropdown {
+//   .main-btn {
+//     width: 100%;
+//     color: $primary;
+//     border-color: $primary;
+//     background-color: transparent;
+//   }
+
+//   .dropdown-menu {
+//     min-height: 100px;
+//     height: 170px;
+//     overflow-y: scroll;
+//     &.show {
+//       top: 32px !important;
+//       transform: none !important;
+//     }
+//   }
+// }
+
+.breadcrumb {
+  border-bottom: 0px;
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
+}
+
+/** ToggleDirection Component */
+.toggle-dir {
+  background: transparent;
+
+  .fa-language {
+    color: $primary;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar-fixed .sidebar {
+    z-index: inherit;
+  }
+}
+
+
+#modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  /* this is what centers your element in the fixed wrapper*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  /* aligns on vertical for column */
+  align-items: center;
+  /* aligns on horizontal for column */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  z-index: 999;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
+}
+
+.form-check-input {
+  margin-left: 0px;
+}
+
+.modal-card {
+  width: 80%;
+  margin: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 5px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  button {
+    width: 80%;
+  }
+
+  i {
+    font-size: large;
+  }
+}
+
+i {
+  margin: 0px 4px;
+}
+
+.default-form {
+  border: 1px;
+  border-color: black;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+/**
+Form Component
+*/
+form {
+  button.dropdown-toggle {
+    width: 100%;
+  }
+
+  #formDivider {
+    border-top: 1px solid rgba(0, 0, 0, 0.76);
+  }
+}
+
+.form-btn {
+  width: 100%;
+}
+
+.only-print {
+  font-family: Lateef;
+}

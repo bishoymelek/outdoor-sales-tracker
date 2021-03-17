@@ -1,0 +1,16 @@
+{
+  "App": "App",
+  "Account": "Account",
+  "UserGroup": "UserGroup",
+  "Branch": "Branch",
+  "User": "User",
+  "City": "City",
+  "Client": "Client",
+  "Ticket": "Ticket",
+  "Transaction": "Transaction",
+  "AgentAction": "AgentAction",
+  "Wallet": "Wallet",
+  "Notification": "Notification",
+  "Nav": "nav",
+  "Category": "Category"
+}

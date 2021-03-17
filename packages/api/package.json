@@ -1,0 +1,32 @@
+{
+  "name": "@outdoor-sales-system/api",
+  "version": "1.0.0",
+  "description": "This is a OpenAPI 2 specification for Mashrooy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.742.0",
+    "bcryptjs": "^2.4.3",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "js-yaml": "^3.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "path": "^0.12.7",
+    "swagger-mongoose": "^1.1.2",
+    "swagger-tools": "^0.10.4",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
